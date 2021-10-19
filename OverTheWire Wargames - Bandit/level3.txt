@@ -1,0 +1,25 @@
+OverTheWire Wargames - Bandit Level 3
+
+Now that we have gotten the key from level 2.
+
+You can now login into the third level!
+
+Command Line:
+
+ssh bandit2@bandit.labs.overthewire.org -p 2220
+
+Password: CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
+
+After we get in, if we do the command "ls".
+
+We can see that theres a file, but it has spaces in it.
+
+How do we open it? By adding \ to the end of each word that has a space behind it.
+
+So the command would go as follow.
+
+cat spaces\ in\ this\ filename
+
+And now we have our password!
+
+Password: UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
