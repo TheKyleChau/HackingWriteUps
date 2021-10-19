@@ -7,3 +7,9 @@ Command Line:
 ssh bandit0@bandit.labs.overthewire.org -p 2220
 
 Password: bandit0
+
+We get the password from the home directory.
+
+Password: boJ9jbbUNNfktd78OOpsqOltutMc3MY1
+
+To the next level!
