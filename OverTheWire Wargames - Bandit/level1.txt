@@ -1,0 +1,9 @@
+OverTheWire WarGames - Level 1 Write-up
+
+This should be pretty easy.
+
+Command Line:
+
+ssh bandit0@bandit.labs.overthewire.org -p 2220
+
+Password: bandit0
