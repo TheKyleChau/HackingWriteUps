@@ -1,0 +1,3 @@
+OverTheWire Wargames - Bandit Level 2
+
+Getting the key that we read from level 1. 
