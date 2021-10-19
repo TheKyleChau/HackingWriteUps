@@ -1,0 +1,24 @@
+OverTheWire Wargames - Bandit Level 4
+
+Using the password from level 3, let's login into the server.
+
+Command Line:
+ssh bandit3@bandit.labs.overthewire.org -p 2220
+
+Password: UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
+
+As we log in, there's a directory.
+
+However, when we go into it, there's nothing!
+
+Where is the file at?
+
+What we can do is type in "find".
+
+And look, there's a file called hidden!
+
+And if we do "cat ./.hidden"
+
+There's our password!
+
+Password: pIwrPrtPN36QITSp3EQaw936yaFoFgAB
