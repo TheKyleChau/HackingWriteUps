@@ -1,3 +1,25 @@
 OverTheWire Wargames - Bandit Level 2
 
 Getting the key that we read from level 1. 
+
+We can now login into the next level.
+
+Command Line:
+ssh bandit1@bandit.labs.overthewire.org -p 2220
+
+Password: boJ9jbbUNNfktd78OOpsqOltutMc3MY1
+
+And we're in!
+
+Now, we have logged in.
+
+There's a strange file that is just a dash
+
+However, we can use the correct syntax to access it.
+
+Command Line:
+cat ./-
+
+Now, it displays the password that we need for the next level.
+
+Password: CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
