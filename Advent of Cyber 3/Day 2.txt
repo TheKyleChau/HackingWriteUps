@@ -1,4 +1,5 @@
 Day 2: Web Exploitation - Elf HR Problems
+https://tryhackme.com/room/adventofcyber3
 
 First, we're greeted with a big explaination on how cookies are stored when a HTTP request is made.
 There is a lot to process as cookies can have so many components.
@@ -6,8 +7,8 @@ However, we can manipulate these cookies to give us access that was never suppos
 If we open the website, we can see that we have to register an account.
 After we register an account, it says that we don't have access.
 However, if we open up Developer Tools in our browser and look at Cookies.
-We can see that the value of the user-auth cookie is in Hexadecimal format.
-After we try decoding hexadecimal format, we are left with a JSON type string.
+We can see that the value of the user-auth cookie is in a certain format.
+After we try decoding the type of encoding that it is, we are left with a plain type string format that is human readable.
 
 I registered my username with test.
 However, it will your username that you tried registering with.
