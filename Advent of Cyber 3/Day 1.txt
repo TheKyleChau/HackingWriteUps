@@ -1,0 +1,18 @@
+Day 1: Web Exploitation - Save The Gifts
+
+So we're greeted with instructions for Save The Gifts.
+The first step that we need to look at is the URL in the webpage given
+
+https://website.thm/profile?id=23
+
+^ is the example they give.
+
+23 is the ID that is being queried.
+So we need to try and exploit an IDOR vulnerability where you change the id parameter.
+Changing the ID parameter will help us exploit the IDOR vulnerability as that's a parameter that we shouldn't be changing as a user.
+
+We start to look at the website which starts us off on the Inventory Management Page which shows a bunch of toys that were mismade.
+We're looking for the Your Activity page as we can see who changed that items.
+If we try replacing the user_id value starting at 1, we can see that user_id 1 is Santa.
+And if we keep going to 9, we can see that the Grinch is the user behind all the of actions.
+As we revert them all, we get the flag.

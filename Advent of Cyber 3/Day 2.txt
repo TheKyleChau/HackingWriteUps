@@ -1,0 +1,21 @@
+Day 2: Web Exploitation - Elf HR Problems
+
+First, we're greeted with a big explaination on how cookies are stored when a HTTP request is made.
+There is a lot to process as cookies can have so many components.
+However, we can manipulate these cookies to give us access that was never supposed to be given.
+If we open the website, we can see that we have to register an account.
+After we register an account, it says that we don't have access.
+However, if we open up Developer Tools in our browser and look at Cookies.
+We can see that the value of the user-auth cookie is in Hexadecimal format.
+After we try decoding hexadecimal format, we are left with a JSON type string.
+
+I registered my username with test.
+However, it will your username that you tried registering with.
+So now, if we try replacing test with the username admin.
+
+And we encode it back into hex.
+
+We can now pose as an admin user.
+Let's try pasting this into the value of the cookie user-auth and refresh the page.
+
+Success! We are now in the admin page.
